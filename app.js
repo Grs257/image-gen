@@ -1,6 +1,6 @@
 const API_KEY = "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";
 
-const butt = document.querySelector("#button-icon");
+const buttionicon = document.querySelector("#button-icon");
 const inputElement = document.querySelector("input");
 const imagesection = document.querySelector(".image-section");
 
@@ -36,4 +36,4 @@ const getImages = async () => {
     console.error(error);
   }
 };
-butt.addEventListener("click", getImages);
+buttionicon.addEventListener("click", getImages);
